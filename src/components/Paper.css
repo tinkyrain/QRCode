@@ -1,0 +1,9 @@
+.paper{
+    margin: 0 auto;
+
+    width: 650px;
+    height: 650px;
+
+    background-color: white;
+    border-radius: 30px;
+}
