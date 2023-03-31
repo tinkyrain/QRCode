@@ -6,4 +6,18 @@
 
     background-color: white;
     border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.QR{
+    width: 400px;
+    height: 400px;
+
+    background-color: red;
+
+    margin: 0 auto;
 }
