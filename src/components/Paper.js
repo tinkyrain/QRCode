@@ -1,11 +1,12 @@
 import Input from './Input';
 import Button from './Button';
+import QR from './QR';
 import './Paper.css';
 
 const Paper = () => {
     return (
         <div className='paper'>
-            <div className='QR'></div>
+            <QR/>
             <Input/>
             <Button/>
         </div>
