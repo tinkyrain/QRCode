@@ -3,11 +3,13 @@
     height: 40px;
 
     border-radius: 10px;
-    border: 1px solid #9697a4;
+    border: 2px solid #0a0f92;
 
     padding: 0 10px;
 
     outline: none;
 
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
