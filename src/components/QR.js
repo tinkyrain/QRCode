@@ -1,8 +1,9 @@
 import './QR.css';
+import { QRCodeSVG } from 'qrcode.react';
 
 const QR = () => {
     return(
-        <div className='QR'></div>
+        <QRCodeSVG value="hello world!" size={400}/>
     );
 }
 
