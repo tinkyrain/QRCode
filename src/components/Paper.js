@@ -1,4 +1,5 @@
 import Input from './Input';
+import Button from './Button';
 import './Paper.css';
 
 const Paper = () => {
@@ -6,6 +7,7 @@ const Paper = () => {
         <div className='paper'>
             <div className='QR'></div>
             <Input/>
+            <Button/>
         </div>
     );
 }
