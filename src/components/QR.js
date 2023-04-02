@@ -1,8 +1,10 @@
 import { QRCodeSVG } from 'qrcode.react';
+import { useSelector } from 'react-redux';
 
 const QR = () => {
+    const text = useSelector(state => state.text);
     return(
-        <QRCodeSVG value="hello world!" size={400}/>
+        <QRCodeSVG value={text} size={400}/>
     );
 }
 

@@ -6,7 +6,7 @@ import App from './App';
 import './index.css';
 
 const defaultState = {
-  text: 'Hello, world!',
+  text: '',
 }
 
 const reducer = (state = defaultState, action) => {
