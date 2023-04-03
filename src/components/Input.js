@@ -16,6 +16,7 @@ const Input = () => {
                 value = event.target.value;
                 dispatch({type: 'GENERATE_QR', qrChange: value});
             }}
+            defaultValue='https://github.com/tinkyrain'
         />
     );
 }

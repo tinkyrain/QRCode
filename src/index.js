@@ -6,7 +6,7 @@ import App from './App';
 import './index.css';
 
 const defaultState = {
-  text: '',
+  text: 'https://github.com/tinkyrain',
 }
 
 const reducer = (state = defaultState, action) => {
