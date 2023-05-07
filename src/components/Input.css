@@ -13,3 +13,18 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+
+@media (max-width: 480px) {
+    .input{
+        width: 290px;
+        height: 40px;
+    }
+}
+
+
+@media (max-width: 365px) {
+    .input{
+        width: 200px;
+        height: 40px;
+    }
+}
