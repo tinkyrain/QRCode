@@ -1,9 +1,10 @@
-import './QR.css';
+import { useTypedSelector } from '../hooks/useTypedSelector';
 import { QRCodeSVG } from 'qrcode.react';
-import { useSelector } from 'react-redux';
+import './QR.css';
 
 const QR = () => {
-    const text = useSelector(state => state.text);
+    const { text } = useTypedSelector(state => state.text);
+
     return(
         <QRCodeSVG value={text} className='QR'/>
     );

@@ -1,0 +1,1 @@
+export const GENERATE_QR:string = 'GENERATE_QR';
