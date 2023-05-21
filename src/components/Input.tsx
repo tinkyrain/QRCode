@@ -1,11 +1,8 @@
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-
 import './Input.css';
 
 const Input = () => {
-    const dispatch = useDispatch();
-    let value = null;
+    let value:string = '';
 
     return(
         <input 
@@ -14,7 +11,6 @@ const Input = () => {
             placeholder='Enter your text!'
             onChange={(event) =>{
                 value = event.target.value;
-                dispatch({type: 'GENERATE_QR', qrChange: value});
             }}
             defaultValue='https://github.com/tinkyrain'
         />
